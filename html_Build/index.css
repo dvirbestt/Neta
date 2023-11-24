@@ -1,0 +1,145 @@
+:root {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(238, 236, 236);
+    font-style: italic;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.Menu{
+    background-color: rgb(0, 0, 100);
+    
+}
+
+.Menu > ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    color: rgb(228, 228, 228);
+}
+
+.Menu > ul > li {
+    flex-basis: 30%;
+    
+    text-align: center;
+    cursor: pointer;
+}
+
+.Search {
+    border: none;
+    background-color: rgb(228, 228, 228);
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.Search-button{
+    position: absolute;
+    border: none;
+    background-color: inherit;
+    margin-top: -19px;
+    margin-left: 12%;
+    border-radius: 100%;
+}
+
+
+.Main-Header{
+    background-color: white;
+    width: 270px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 3%;
+    margin: 7% auto ;
+}
+
+.Main-Header > h3 {
+    font-weight: bolder;
+    color: rgb(0, 0, 100);
+    font-size: 30px;
+}
+
+.Main-Header > .info {
+    margin-bottom: 20px;
+    font-size: large;
+}
+
+.Button-Tab > button {
+    border: none;
+    background-color: white;
+    width: 125px;
+    height: 40px;
+    border: 1px solid rgb(180, 180, 180);
+    border-radius: 25px;
+    font-size: large;
+}
+
+.Button-Tab > :nth-child(1){
+    background-color: rgb(0, 0, 100);
+    color: rgb(228, 228, 228);
+}
+
+.Button-Tab > :nth-child(2){
+    color: rgb(0, 0, 100);
+}
+
+img{
+    border-radius: 100%;
+    width: 125px;
+    height: 125px;
+    object-fit: fill;
+}
+
+a{ 
+    text-decoration: none;
+}
+
+.Links {
+    display: flex;
+    width: 330px;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+.row {
+    padding: 10px;
+    border-bottom: 1px solid rgb(228,228,228);
+    height: 20px;
+    color: rgb(0, 0, 100);
+    font-weight: bold;   
+}
+
+.row > div , .row > div > :nth-child(1){
+   display: flex;
+   flex-basis: 33%;
+   justify-content: left;
+   gap: 10px;
+}
+
+
+.last-row{
+    border: none;
+}
+
+
+.ids{
+    color: rgb(158, 158, 158);
+    display: flex;
+    justify-content: right;
+    flex-basis: 65%;
+}
